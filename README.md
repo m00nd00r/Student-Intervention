@@ -2,17 +2,32 @@
 ## Building a Student Intervention System
 ### see https://m00nd00r.github.io/Student-Intervention/ for project info
 
-### Install
+## Install
 
-This project requires **Python 2.7** and the following Python libraries installed:
+This project requires **Python 2** and uses the Anaconda package manager.
+If you haven't already please download and install Anaconda.
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [scikit-learn](http://scikit-learn.org/stable/)
+Instructions:
+1. Clone the repository and navigate to the downloaded folder.
+	
+	```	
+		git clone https://github.com/m00nd00r/Student-Intervention.git
+		cd Custoner-Segments
+	```
+    
+2. Obtain the necessary Python packages.  
+	
+	For __Mac/OSX/Linux__:
+	```
+		conda env create -f requirements/intervention-osx.yml
+		source activate segments
+	```
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html).
-
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
+	For __Windows__:
+	```
+		conda env create -f requirements/intervention-windows.yml
+		activate segments
+	```
 
 ### Code
 
