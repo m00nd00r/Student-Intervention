@@ -4,7 +4,7 @@
 
 ## Install
 
-This project requires **Python 2** and uses the Anaconda package manager.
+This project requires **Python 2** and uses the Anaconda Python distribution.
 If you haven't already please download and install Anaconda.
 
 Instructions:
@@ -12,7 +12,7 @@ Instructions:
 	
 	```	
 		git clone https://github.com/m00nd00r/Student-Intervention.git
-		cd Custoner-Segments
+		cd Student-Intervention
 	```
     
 2. Obtain the necessary Python packages.  
@@ -20,13 +20,13 @@ Instructions:
 	For __Mac/OSX/Linux__:
 	```
 		conda env create -f requirements/intervention-osx.yml
-		source activate segments
+		source activate intervention
 	```
 
 	For __Windows__:
 	```
 		conda env create -f requirements/intervention-windows.yml
-		activate segments
+		activate intervention
 	```
 
 ### Code
