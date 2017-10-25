@@ -35,9 +35,9 @@ Code is in the `student_intervention.ipynb` notebook file.
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `student_intervention/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `student_intervention/` (that contains this README) and run the following command:
 
-```bash
+```
 jupyter notebook student_intervention.ipynb
 ```
 
